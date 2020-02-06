@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
-<head>
-  <title>Lab 2</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-  <link rel="stylesheet" media="screen" href="css/reset.css" />
-  <link rel="stylesheet" media="screen" href="css/screen.css" />
-</head>
-<body>
+    <head>
+        <title>Lab 2</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+        <link rel="stylesheet" media="screen" href="css/reset.css" />
+        <link rel="stylesheet" media="screen" href="css/screen.css" />
+    </head>
+    <body>
+        <fieldset>
+            <div>
+                <label>First Name: <input type="text" name="text_field" placeholder="first name" ></label>
+                <label>Last Name: <input type="text" name="text_field" placeholder="last name" ></label>
+            </div>
+            <div>
+                <label>Age:<input type="date" name="number_field" placeholder="enter age"></label>
+            </div>
+            <div>
+                <label>Email Address: <input type="email" name="email_field" placeholder="email here"></label>
+            </div>
 
-</body>
+            <div>
+                <label>Male: <input type="radio" name="radio_field" value="r"></label>
+                <label>Female: <input type="radio" name="radio_field" value="g" checked="checked"></label>
+
+            </div>
+
+            <div>
+                <label>Password: <input type="password" name="password_field"></label>
+            </div>
+
+            <div>
+                <label for="our_textarea">Reason:</label>
+                <textarea cols="30" rows="5" name="textarea_field" placeholder="why do you want to join" id="our_textarea"></textarea>
+            </div>
+            
+            <input type="submit" value="Submit">
+
+        </fieldset>
+
+    </body>
 </html>
