@@ -36,8 +36,8 @@ input[type=submit] {
 }
 
 
-@media screen and (min-width: 04200px) and (max-width:720px){
-  .taking, h1, input[type=submit] {
+@media screen and (min-width: 420px) and (max-width:720px){
+  .taking, h1, input[type=submit], input[type=text], select, textarea {
     width: 100%;
     margin-top: 0;
   }
