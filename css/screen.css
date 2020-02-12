@@ -1,44 +1,73 @@
 /* Style the html */
 html {
-  border-radius: 5px;
-  background-color: blanchedalmond;
-  padding: 20px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    padding: 20px;
 }
 h1{
     text-align: center;
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 2em;
     color: seagreen;
 }
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-sizing: border-box;
-  resize: vertical;
+input[type=text],textarea {
+    width: 100%;
+    padding: 5px;
+    border: 3px solid #acacac;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: vertical;
 }
 
 
+input[type=date], textarea{
+    width: 100%;
+    padding: 5px;
+    border: 3px solid #acacac;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+
+}
+
+input[type=email], textarea{
+    width: 100%;
+    padding: 5px;
+    border: 3px solid #acacac;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+
+}
+
 label {
-  padding: 12px 12px 12px 0px;
-  display: inline-block;
+    padding: 12px 12px 12px 0px;
+    display: inline-block;
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 100px;
-  cursor: pointer;
-  float: center;
+    background-color: seagreen;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 100px;
+    cursor: pointer;
 }
 
 
-@media screen and (min-width: 420px) and (max-width:720px){
-  .taking, h1, input[type=submit], input[type=text], select, textarea {
-    width: 100%;
-    margin-top: 0;
-  }
+@media screen and (min-width: 480px){
+    .taking, h1, input[type=submit], input[type=text], textarea {
+        width: 100%;
+        margin-top: 0;
+
+    }
+}
+
+@media screen and (min-width: 780px){
+    input[type=submit]{
+        width:30%;
+        padding: 15px 15px 15px 15px;
+    
+    }
+
+
 }
